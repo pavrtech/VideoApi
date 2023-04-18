@@ -5,6 +5,7 @@
   "main": "./src/api.js",
   "type": "module",
   "scripts": {
+    "build": "webpack --mode production",
     "start": "nodemon ./src/api.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "firebase deploy --only functions:api"
